@@ -18,7 +18,7 @@ A lightweight desktop widget where a living 3D tulip grows, reacts, and evolves 
 
 # ✨ Preview
 
-![Living Tulip Preview](assets/preview-1.png)
+![Living Tulip Preview](src/assets/preview-1.png)
 
 
 # 📖 About

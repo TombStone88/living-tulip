@@ -1,73 +1,167 @@
-# React + TypeScript + Vite
+<div align="center">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🌷 Living Tulip
 
-Currently, two official plugins are available:
+### A beautiful desktop companion built with Tauri, React & Three.js
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+A lightweight desktop widget where a living 3D tulip grows, reacts, and evolves based on user interactions.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+![Status](https://img.shields.io/badge/Status-In%20Development-green)
+![Platform](https://img.shields.io/badge/Platform-Windows-blue)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
-## Expanding the ESLint configuration
+</div>
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+# ✨ Preview
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+assets/
+├── preview-1.png
+├── preview-2.png
+└── preview.gif
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+# 📖 About
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+Living Tulip is a desktop companion inspired by virtual pets and modern desktop widgets.
+
+Instead of a static plant, the tulip lives on your desktop, responds to interactions, grows over time, and reflects its health based on how you care for it.
+
+The goal is to create a calming desktop experience with beautiful animations, real-time interactions, and an expressive 3D character.
+
+---
+
+# 🚀 Features
+
+## ✅ Current
+
+- Frameless desktop widget
+- Custom draggable title bar
+- Live digital clock
+- Responsive UI
+- Health system
+- Hydration system
+- Interactive Water button
+- Animated progress bars
+- Zustand state management
+- 3D Tulip model
+- React Three Fiber integration
+- Idle tulip animation
+
+---
+
+## 🚧 Coming Soon
+
+- Growth stages
+- Blooming animation
+- Sleeping animation
+- Emotion system
+- Weather effects
+- Seasonal themes
+- Desktop notifications
+- Sound effects
+- Save progress
+- Settings panel
+- AI-powered interactions
+
+---
+
+# 🛠 Tech Stack
+
+### Frontend
+
+- React 19
+- TypeScript
+- Vite
+- Zustand
+- Framer Motion
+- GSAP
+
+### 3D
+
+- Three.js
+- React Three Fiber
+- React Drei
+
+### Desktop
+
+- Tauri v2
+- Rust
+
+---
+
+# 📁 Project Structure
+
+```text
+src
+├── components
+│   ├── Clock
+│   ├── Header
+│   ├── Plant
+│   ├── ProgressBar
+│   ├── Stats
+│   ├── WaterButton
+│   └── Widget
+│
+├── store
+│   └── plantStore.ts
+│
+├── styles
+│
+├── App.tsx
+└── main.tsx
 ```
+
+# 📅 Development Roadmap
+
+## Phase 1
+- [x] Widget foundation
+- [x] State management
+- [x] Health & hydration system
+- [x] 3D Tulip integration
+
+## Phase 2
+- [ ] Responsive layout improvements
+- [ ] Growth stages
+- [ ] Bloom animation
+- [ ] Sleep cycle
+
+## Phase 3
+- [ ] Desktop notifications
+- [ ] Weather system
+- [ ] Sound effects
+- [ ] Save data
+
+## Phase 4
+- [ ] AI companion
+- [ ] Smart interactions
+- [ ] Voice support
+
+---
+
+# 🤝 Contributing
+
+Contributions, ideas, and feedback are welcome.
+
+Feel free to open an issue or submit a pull request.
+
+---
+
+# ⭐ Support
+
+If you like this project, consider giving it a ⭐ on GitHub.
+
+It helps others discover the project and motivates future development.
+
+---
+
+<div align="center">
+
+Made with ❤️ using React, Three.js and Tauri.
+
+</div>

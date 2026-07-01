@@ -1,0 +1,43 @@
+Living Tulip Companion - Installation Dependencies
+
+1. Create the project
+
+npm create vite@latest tulip-companion – –template react-ts
+
+2. Enter the project
+
+cd tulip-companion
+
+3. Install base dependencies
+
+npm install
+
+4. Install Electron
+
+npm install electron electron-builder concurrently wait-on
+
+5. Install Three.js & React Three Fiber
+
+npm install three @react-three/fiber @react-three/drei
+
+6. Install animation library
+
+npm install framer-motion
+
+7. (Recommended) Install utilities
+
+npm install zustand npm install leva npm install gsap
+
+8. Development
+
+npm run dev
+
+9. Future AI packages (install later when needed)
+
+npm install openai npm install axios
+
+Complete dependency install in one command
+
+npm install electron electron-builder concurrently wait-on three
+@react-three/fiber @react-three/drei framer-motion zustand leva gsap
+openai axios
